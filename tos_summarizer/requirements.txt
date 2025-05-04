@@ -1,3 +1,3 @@
-pip install streamlit openai
-streamlit run tos_summarizer.py
- 
+streamlit>=1.7.0
+openai>=0.27.0
+pymupdf>=1.18.0
