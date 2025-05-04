@@ -15,6 +15,6 @@ if st.button("Summarize"):
         # Placeholder summary logic (replace with actual model call)
         summary = "This is a placeholder summary of the provided Terms of Service."
         st.success("✅ Summary Generated:")
-        st.write(summary)
+        st.write("summary", summary, height=300)
     else:
         st.warning("⚠️ Please enter some text before summarizing.")
